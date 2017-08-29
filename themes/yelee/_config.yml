@@ -128,8 +128,8 @@ color_scheme:
 
 highlight_style:
   on: true
-  inline_code: 1  # Value: 0 - 9 可选
-  code_block: 1  # Value: 0 - 4
+  inline_code: 8 # Value: 0 - 9 可选
+  code_block: 4  # Value: 0 - 4
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
@@ -145,7 +145,7 @@ blockquote_style:
 heading_style: 0 # Value: 0 - 2
 
 ## List style type (ul) | 无序列表项标记样式
-list_style: 0  # value: 0 - 12 可选
+list_style: 3  # value: 0 - 12 可选
 
 # 左边栏宽度 px
 left_col_width: 300
@@ -262,7 +262,7 @@ google_analytics:
 
 # 百度统计 http://sitecenter.baidu.com/sc-web/
 # 查看代码，填入 //hm.baidu.com/hm.js? 之后的内容
-baidu_tongji:
+baidu_tongji: 5c20d4c98ecbb83b3e7ebf2c7651812f
 
 # 不蒜子网站计数设置
 # http://ibruce.info/2015/04/04/busuanzi/
@@ -273,7 +273,7 @@ visit_counter:
 
 # GitHub Repo Widget
 # https://github.com/hustcc/GitHub-Repo-Widget.js
-github_widget: false
+github_widget: true
 
 # Progress Bar | 页面加载进度条
 # Demo: http://github.hubspot.com/pace/docs/welcome/
@@ -299,3 +299,12 @@ CDN:
   clipboard: //cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js
   mathjax: //cdn.bootcss.com/mathjax/2.6.1/MathJax.js
   scrollreveal: //cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js
+#sitemap
+#sitemap
+sitemap:
+  path: site.xml
+baidusitemap:
+  path: baidusitemap.xml
+#plugins
+plugins:
+  - hexo-generator-sitemap

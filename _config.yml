@@ -96,7 +96,9 @@ deploy:
 #     - slug
 #     - path
 #     - content:strip
-
+#sitemap
+sitemap:
+    path: sitemap.xml
 # local search
 search:
   path: search.xml
